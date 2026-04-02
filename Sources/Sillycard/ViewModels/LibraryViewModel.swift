@@ -1,5 +1,7 @@
+import AppKit
 import Combine
 import Foundation
+import UniformTypeIdentifiers
 
 @MainActor
 final class LibraryViewModel: ObservableObject {
@@ -21,9 +23,10 @@ final class LibraryViewModel: ObservableObject {
     @Published var editingJSON: String = ""
     @Published var isDirty: Bool = false
 
-    /// 由菜单/工具栏触发，在 `ContentView` 中用 `fileImporter` 承接（避免在主 App 中依赖 AppKit）。
-    @Published var showOpenLibraryImporter = false
-    @Published var showOpenPNGImporter = false
+    /// 用户透过系统面板选定的资料库根目录对应的安全作用域（沙盒下须保持直至换库）。
+    private var securityScopedLibraryRoot: URL?
+    /// 独立窗口打开单张 PNG 时，对其文件 URL 的作用域（与资料库内路径无关）。
+    private var securityScopedStandalonePNG: URL?
 
     var filteredItems: [CardItem] {
         cardItems.filter { item in
@@ -54,12 +57,82 @@ final class LibraryViewModel: ObservableObject {
         cardItems.contains { $0.relativeFolder.isEmpty }
     }
 
+    /// 弹出系统文件夹选择面板并载入资料库（沙盒下须由此取得访问权）。
+    func pickAndOpenLibraryFolder() {
+        let panel = NSOpenPanel()
+        panel.canChooseFiles = false
+        panel.canChooseDirectories = true
+        panel.allowsMultipleSelection = false
+        panel.canCreateDirectories = false
+        panel.title = "选择资料库文件夹"
+        panel.message = "请选择包含 PNG 角色卡的文件夹。选择后即表示你授权本 App 读取并保存该文件夹内的卡片文件。"
+        panel.prompt = "打开"
+        guard panel.runModal() == .OK, let url = panel.url else { return }
+        openLibrary(at: url)
+    }
+
+    /// 弹出打开单张角色卡 PNG（用于未开资料库时）。
+    func pickAndOpenStandalonePNG() {
+        let panel = NSOpenPanel()
+        panel.canChooseFiles = true
+        panel.canChooseDirectories = false
+        panel.allowsMultipleSelection = false
+        panel.allowedContentTypes = [.png]
+        panel.title = "打开 PNG 角色卡"
+        panel.message = "请选择一张 PNG。选择后本 App 仅此文件获得读写授权（用于编辑与另存）。"
+        panel.prompt = "打开"
+        guard panel.runModal() == .OK, let url = panel.url else { return }
+        let key = url.standardizedFileURL
+        if let prev = securityScopedStandalonePNG {
+            prev.stopAccessingSecurityScopedResource()
+            securityScopedStandalonePNG = nil
+        }
+        if key.startAccessingSecurityScopedResource() {
+            securityScopedStandalonePNG = key
+        } else {
+            NotificationCenter.default.post(
+                name: .sillycardShowError,
+                object: "无法获得该 PNG 的访问权限，读取或保存可能失败。\n\n请关闭后再用「打开 PNG」重选文件。"
+            )
+        }
+        openSingleCardEditor(url: key)
+    }
+
     func openLibrary(at url: URL) {
-        libraryRoot = url.standardizedFileURL
+        let standardized = url.standardizedFileURL
+        if let prev = securityScopedLibraryRoot {
+            prev.stopAccessingSecurityScopedResource()
+            securityScopedLibraryRoot = nil
+        }
+        if let solo = securityScopedStandalonePNG {
+            solo.stopAccessingSecurityScopedResource()
+            securityScopedStandalonePNG = nil
+        }
+
+        let accessOK = standardized.startAccessingSecurityScopedResource()
+        if accessOK {
+            securityScopedLibraryRoot = standardized
+        } else {
+            NotificationCenter.default.post(
+                name: .sillycardShowError,
+                object: """
+                未能获得文件夹访问权限，无法列出或保存卡片。
+
+                请使用工具栏或侧栏的「打开文件夹」通过系统窗口重新选择资料库。不要期望在未授权时直接访问任意路径。
+                若仍失败，可在「系统设置 → 隐私与安全性」中检查是否有限制本 App 访问文件的描述文件或安全软件拦截。
+                """
+            )
+        }
+
+        libraryRoot = standardized
         do {
-            cardItems = try LibraryScanner.scan(root: url)
+            cardItems = try LibraryScanner.scan(root: standardized)
         } catch {
             cardItems = []
+            NotificationCenter.default.post(
+                name: .sillycardShowError,
+                object: "无法读取文件夹：\(error.localizedDescription)"
+            )
         }
         selection = nil
         editingJSON = ""

@@ -1,18 +1,26 @@
 # Sillycard
 
-在 macOS 上管理、预览与编辑符合 Silly Tavern 规范的 PNG 角色卡（元数据内嵌于 PNG `tEXt` 块，规则与仓库内 [`src/character-card-parser.js`](../src/character-card-parser.js) 对齐：`ccv3` 优先于 `chara`，写入时生成 `chara` 并在 JSON 可解析时附加 `ccv3`）。
+在 macOS 上管理、预览与编辑符合 Silly Tavern 规范的 PNG 角色卡（元数据内嵌于 PNG `tEXt` 块，解析规则与 SillyTavern 主仓库中的 [`src/character-card-parser.js`](https://github.com/SillyTavern/SillyTavern/blob/release/src/character-card-parser.js) 对齐：`ccv3` 优先于 `chara`，写入时生成 `chara` 并在 JSON 可解析时附加 `ccv3`）。
 
 ## 构建与运行
 
 需要 Xcode 15+ 或 Swift 5.9+ 工具链。
 
+### Xcode 工程（推荐，用于签名 / Archive）
+
+在本仓库根目录双击或打开 `Sillycard.xcodeproj`（不再使用已弃用的 `…/SillyTavern/Sillycard/` 嵌套路径）。App 的 **Bundle ID** 为 `xyz.nowtiny.sillycard`；在 **Signing & Capabilities** 中选择你的 **Team** 后即可打包。
+
+若修改了目录结构或 `project.yml`，可在终端执行：`xcodegen generate`（需安装 [XcodeGen](https://github.com/yonaskolb/XcodeGen)）。
+
+### SwiftPM（命令行）
+
 ```bash
-cd Sillycard
+cd "$(git rev-parse --show-toplevel)"   # 本仓库根目录
 swift build -c release
-open /Users/you/SillyTavern/Sillycard/.build/release/Sillycard
+open .build/release/Sillycard
 ```
 
-或在 Xcode 中：**File → Open** 选择本目录下的 `Package.swift`，运行 *Sillycard* scheme（可执行文件）。
+也可在 Xcode 中 **File → Open** 选择 `Package.swift` 作为备选方式（与 `.xcodeproj` 二选一即可，避免重复编译同一份源码时混淆）。
 
 ## 使用说明
 

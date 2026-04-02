@@ -15,12 +15,12 @@ struct SillycardApp: App {
             CommandGroup(replacing: .newItem) {}
             CommandGroup(after: .importExport) {
                 Button("打开文件夹…") {
-                    viewModel.showOpenLibraryImporter = true
+                    viewModel.pickAndOpenLibraryFolder()
                 }
                 .keyboardShortcut("o", modifiers: [.command])
 
                 Button("打开 PNG…") {
-                    viewModel.showOpenPNGImporter = true
+                    viewModel.pickAndOpenStandalonePNG()
                 }
                 .keyboardShortcut("o", modifiers: [.command, .shift])
             }

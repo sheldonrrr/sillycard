@@ -1,5 +1,4 @@
 import SwiftUI
-import UniformTypeIdentifiers
 
 struct ContentView: View {
     @Environment(\.openWindow) private var openWindow
@@ -49,35 +48,9 @@ struct ContentView: View {
         } message: {
             Text(showError ?? "")
         }
-        .fileImporter(
-            isPresented: Binding(
-                get: { viewModel.showOpenLibraryImporter },
-                set: { viewModel.showOpenLibraryImporter = $0 }
-            ),
-            allowedContentTypes: [.folder],
-            allowsMultipleSelection: false
-        ) { result in
-            viewModel.showOpenLibraryImporter = false
-            guard case .success(let urls) = result, let url = urls.first else { return }
-            _ = url.startAccessingSecurityScopedResource()
-            viewModel.openLibrary(at: url)
-        }
-        .fileImporter(
-            isPresented: Binding(
-                get: { viewModel.showOpenPNGImporter },
-                set: { viewModel.showOpenPNGImporter = $0 }
-            ),
-            allowedContentTypes: [.png],
-            allowsMultipleSelection: false
-        ) { result in
-            viewModel.showOpenPNGImporter = false
-            guard case .success(let urls) = result, let url = urls.first else { return }
-            _ = url.startAccessingSecurityScopedResource()
-            viewModel.openSingleCardEditor(url: url)
-        }
         .toolbar {
             ToolbarItemGroup(placement: .automatic) {
-                Button("打开文件夹…") { viewModel.showOpenLibraryImporter = true }
+                Button("打开文件夹…") { viewModel.pickAndOpenLibraryFolder() }
             }
         }
         .onReceive(NotificationCenter.default.publisher(for: .sillycardShowError)) { note in
@@ -85,7 +58,8 @@ struct ContentView: View {
         }
         .onReceive(NotificationCenter.default.publisher(for: .sillycardOpenSingleCard)) { note in
             guard let url = note.object as? URL else { return }
-            openWindow(id: url.path, value: url)
+            // 必须使用 `value:` 与 `WindowGroup(for: URL.self)` 匹配；`id:` 是 Scene 在 App 里注册的标识符，不能传文件路径。
+            openWindow(value: url)
         }
     }
 }

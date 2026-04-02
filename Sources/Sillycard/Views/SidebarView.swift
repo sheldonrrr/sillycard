@@ -2,6 +2,7 @@ import SwiftUI
 
 struct SidebarView: View {
     @EnvironmentObject private var viewModel: LibraryViewModel
+    @State private var showFolderAccessHelp = false
 
     var body: some View {
         List {
@@ -11,8 +12,20 @@ struct SidebarView: View {
                         .font(.caption)
                         .lineLimit(2)
                 } else {
-                    Text("使用工具栏「打开文件夹」")
+                    Text(FolderAccessHelp.sidebarHint)
+                        .font(.caption)
                         .foregroundStyle(.secondary)
+                    Button("打开文件夹…") {
+                        viewModel.pickAndOpenLibraryFolder()
+                    }
+                    .buttonStyle(.borderedProminent)
+                    .controlSize(.small)
+                    Button("为什么需要这一步？") {
+                        showFolderAccessHelp = true
+                    }
+                    .buttonStyle(.borderless)
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
                 }
             }
 
@@ -49,6 +62,17 @@ struct SidebarView: View {
             }
         }
         .listStyle(.sidebar)
+        .alert(FolderAccessHelp.alertTitle, isPresented: $showFolderAccessHelp) {
+            Button("打开文件夹…") {
+                showFolderAccessHelp = false
+                viewModel.pickAndOpenLibraryFolder()
+            }
+            Button("好", role: .cancel) {
+                showFolderAccessHelp = false
+            }
+        } message: {
+            Text(FolderAccessHelp.alertMessage)
+        }
     }
 
     @ViewBuilder

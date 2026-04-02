@@ -1,0 +1,32 @@
+# Generate / refresh Xcode 工程：在仓库根目录执行 `xcodegen generate`
+# Requires: brew install xcodegen
+name: Sillycard
+options:
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+  xcodeVersion: "2640"
+
+settings:
+  base:
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+
+targets:
+  Sillycard:
+    type: application
+    platform: macOS
+    bundleId: xyz.nowtiny.sillycard
+    scheme:
+      management:
+        shared: true
+    sources:
+      - path: Sources/Sillycard
+    entitlements:
+      path: Sources/Sillycard/Sillycard.entitlements
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: xyz.nowtiny.sillycard
+      GENERATE_INFOPLIST_FILE: YES
+      INFOPLIST_KEY_CFBundleDisplayName: Sillycard
+      SWIFT_VERSION: "5.0"
+      CODE_SIGN_STYLE: Automatic
+      ENABLE_HARDENED_RUNTIME: YES

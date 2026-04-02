@@ -3,13 +3,25 @@ import SwiftUI
 struct CardGridView: View {
     @EnvironmentObject private var viewModel: LibraryViewModel
     let onSelectAttempt: (CardItem?) -> Void
+    @State private var showFolderAccessHelp = false
 
     private let columns = [GridItem(.adaptive(minimum: 116, maximum: 160), spacing: 12)]
 
     var body: some View {
         Group {
             if viewModel.libraryRoot == nil {
-                ContentUnavailableView("未打开资料库", systemImage: "folder.badge.questionmark", description: Text("点击工具栏「打开文件夹」"))
+                ContentUnavailableView {
+                    Label("未打开资料库", systemImage: "folder.badge.questionmark")
+                } description: {
+                    Text("通过下方按钮或工具栏选取文件夹后，系统才会授权本 App 访问该目录内的 PNG。")
+                } actions: {
+                    Button("打开文件夹…") {
+                        viewModel.pickAndOpenLibraryFolder()
+                    }
+                    Button("访问权限说明…") {
+                        showFolderAccessHelp = true
+                    }
+                }
             } else if viewModel.filteredItems.isEmpty {
                 ContentUnavailableView("无匹配卡片", systemImage: "photo.on.rectangle.angled", description: Text("调整分类或标签筛选"))
             } else {
@@ -24,6 +36,17 @@ struct CardGridView: View {
             }
         }
         .navigationTitle(viewModel.libraryRoot?.lastPathComponent ?? "Sillycard")
+        .alert(FolderAccessHelp.alertTitle, isPresented: $showFolderAccessHelp) {
+            Button("打开文件夹…") {
+                showFolderAccessHelp = false
+                viewModel.pickAndOpenLibraryFolder()
+            }
+            Button("好", role: .cancel) {
+                showFolderAccessHelp = false
+            }
+        } message: {
+            Text(FolderAccessHelp.alertMessage)
+        }
     }
 
     @ViewBuilder
