@@ -19,8 +19,8 @@ enum CharacterCardPNGError: Error, LocalizedError {
 }
 
 /// Matches SillyTavern `src/character-card-parser.js` read/write behavior.
-enum CharacterCardPNG {
-    static func readCharacterJSON(from pngData: Data) throws -> String {
+public enum CharacterCardPNG {
+    public static func readCharacterJSON(from pngData: Data) throws -> String {
         let chunks = try PNGChunks.extract(from: pngData)
         let textPayloads: [TEXtChunk] = try chunks
             .filter { $0.name == "tEXt" }
@@ -37,7 +37,7 @@ enum CharacterCardPNG {
         throw CharacterCardPNGError.noCharacterData
     }
 
-    static func writeCharacterData(pngData: Data, jsonString: String) throws -> Data {
+    public static func writeCharacterData(pngData: Data, jsonString: String) throws -> Data {
         var chunks = try PNGChunks.extract(from: pngData)
         chunks = chunks.filter { chunk in
             guard chunk.name == "tEXt" else { return true }

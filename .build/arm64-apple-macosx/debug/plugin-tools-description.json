@@ -1,0 +1,2024 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardPackageTests.xctest/Contents/MacOS/SillycardPackageTests",
+      "packagePath" : "/Users/sheldon/sillycard",
+      "productName" : "SillycardPackageTests"
+    }
+  ],
+  "copyCommands" : {
+    "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard_SillycardKit.bundle/Assets.xcassets" : {
+      "inputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Assets.xcassets"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard_SillycardKit.bundle/Assets.xcassets"
+        }
+      ]
+    },
+    "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard_SillycardKit.bundle/Meo.png" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Resources/Meo.png"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard_SillycardKit.bundle/Meo.png"
+        }
+      ]
+    },
+    "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard_SillycardKit.bundle/cat_banner.png" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Resources/cat_banner.png"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard_SillycardKit.bundle/cat_banner.png"
+        }
+      ]
+    }
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.EmbedMeo-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/EmbedMeo.build/sources",
+      "importPath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Tools/EmbedMeo/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Modules/SillycardKit.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/EmbedMeo.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "EmbedMeo",
+      "moduleOutputPath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Modules/EmbedMeo.swiftmodule",
+      "objects" : [
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/EmbedMeo.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "EmbedMeo_main",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "sillycard"
+      ],
+      "outputFileMapPath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/EmbedMeo.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/EmbedMeo.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Modules/EmbedMeo.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/sheldon/sillycard/Tools/EmbedMeo/main.swift"
+      ],
+      "tempsPath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/EmbedMeo.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.Sillycard-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard.build/sources",
+      "importPath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/SillycardApp/SillycardApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/SillycardApp/SillycardAppDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Modules/SillycardKit.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "Sillycard",
+      "moduleOutputPath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Modules/Sillycard.swiftmodule",
+      "objects" : [
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard.build/SillycardApp.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard.build/SillycardAppDelegate.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "Sillycard_main",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "sillycard"
+      ],
+      "outputFileMapPath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard.build/SillycardApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard.build/SillycardAppDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Modules/Sillycard.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/sheldon/sillycard/Sources/SillycardApp/SillycardApp.swift",
+        "/Users/sheldon/sillycard/Sources/SillycardApp/SillycardAppDelegate.swift"
+      ],
+      "tempsPath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SillycardKit-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/sources",
+      "importPath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/ArchiveRestoreMetadata.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/Bundle+Sillycard.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/CharacterCardJSONFlattener.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/CharacterCardJSONPathMutation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/CharacterCardJSONPretty.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/CharacterCardPreviewFormatting.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/DefaultLibrary.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/PNGDataDocument.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/SidebarMarkerPalette.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/SillycardAgentDebug.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/SillycardDesign.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/SillycardNotifications.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/SillycardSceneIds.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Models/CardItem.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Models/CardLibraryEntry.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Models/InspectorEditMode.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Models/LibraryScope.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Models/MainLibraryLayoutMode.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Models/SillyTavernCardPreview.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/PNG/CharacterCardPNG.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/PNG/PNGChunks.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Services/CardLibraryStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Services/CardMetadataCache.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Services/LibraryScanner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/ViewModels/LibraryViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Views/AboutSillycardView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Views/CardGridView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Views/CharacterCardFieldValuePreview.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Views/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Views/InspectorView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Views/SidebarView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Views/SingleCardEditorView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Views/WelcomeView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<SillycardKit-arm64-apple-macosx-debug.module-resources>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SillycardKit",
+      "moduleOutputPath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Modules/SillycardKit.swiftmodule",
+      "objects" : [
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/ArchiveRestoreMetadata.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/Bundle+Sillycard.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardJSONFlattener.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardJSONPathMutation.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardJSONPretty.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardPreviewFormatting.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/DefaultLibrary.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/PNGDataDocument.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SidebarMarkerPalette.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SillycardAgentDebug.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SillycardDesign.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SillycardNotifications.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SillycardSceneIds.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CardItem.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CardLibraryEntry.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/InspectorEditMode.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/LibraryScope.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/MainLibraryLayoutMode.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SillyTavernCardPreview.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardPNG.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/PNGChunks.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CardLibraryStore.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CardMetadataCache.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/LibraryScanner.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/LibraryViewModel.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/AboutSillycardView.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CardGridView.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardFieldValuePreview.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/ContentView.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/InspectorView.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SidebarView.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SingleCardEditorView.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/WelcomeView.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/resource_bundle_accessor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+        "-module-cache-path",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/include/SillycardKit-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "sillycard"
+      ],
+      "outputFileMapPath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/ArchiveRestoreMetadata.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/Bundle+Sillycard.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardJSONFlattener.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardJSONPathMutation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardJSONPretty.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardPreviewFormatting.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/DefaultLibrary.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/PNGDataDocument.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SidebarMarkerPalette.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SillycardAgentDebug.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SillycardDesign.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SillycardNotifications.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SillycardSceneIds.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CardItem.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CardLibraryEntry.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/InspectorEditMode.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/LibraryScope.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/MainLibraryLayoutMode.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SillyTavernCardPreview.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardPNG.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/PNGChunks.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CardLibraryStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CardMetadataCache.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/LibraryScanner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/LibraryViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/AboutSillycardView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CardGridView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardFieldValuePreview.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/InspectorView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SidebarView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SingleCardEditorView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/WelcomeView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Modules/SillycardKit.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/ArchiveRestoreMetadata.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/Bundle+Sillycard.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/CharacterCardJSONFlattener.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/CharacterCardJSONPathMutation.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/CharacterCardJSONPretty.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/CharacterCardPreviewFormatting.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/DefaultLibrary.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/PNGDataDocument.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/SidebarMarkerPalette.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/SillycardAgentDebug.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/SillycardDesign.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/SillycardNotifications.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/SillycardSceneIds.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/Models/CardItem.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/Models/CardLibraryEntry.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/Models/InspectorEditMode.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/Models/LibraryScope.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/Models/MainLibraryLayoutMode.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/Models/SillyTavernCardPreview.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/PNG/CharacterCardPNG.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/PNG/PNGChunks.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/Services/CardLibraryStore.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/Services/CardMetadataCache.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/Services/LibraryScanner.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/ViewModels/LibraryViewModel.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/Views/AboutSillycardView.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/Views/CardGridView.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/Views/CharacterCardFieldValuePreview.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/Views/ContentView.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/Views/InspectorView.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/Views/SidebarView.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/Views/SingleCardEditorView.swift",
+        "/Users/sheldon/sillycard/Sources/Sillycard/Views/WelcomeView.swift",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/DerivedSources/resource_bundle_accessor.swift"
+      ],
+      "tempsPath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SillycardPackageTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardPackageTests.build/sources",
+      "importPath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Modules/SillycardSampleTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SillycardPackageTests",
+      "moduleOutputPath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Modules/SillycardPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardPackageTests.build/include/SillycardPackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "sillycard"
+      ],
+      "outputFileMapPath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Modules/SillycardPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SillycardSampleTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardSampleTests.build/sources",
+      "importPath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Tests/SillycardSampleTests/CardSampleVerificationTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Tests/SillycardSampleTests/CardStyleCaptureReportTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Tests/SillycardSampleTests/CharacterCardTitlePresentationTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Tests/SillycardSampleTests/MarkdownInHTMLPreviewTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Modules/SillycardKit.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardSampleTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SillycardSampleTests",
+      "moduleOutputPath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Modules/SillycardSampleTests.swiftmodule",
+      "objects" : [
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardSampleTests.build/CardSampleVerificationTests.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardSampleTests.build/CardStyleCaptureReportTests.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardSampleTests.build/CharacterCardTitlePresentationTests.swift.o",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardSampleTests.build/MarkdownInHTMLPreviewTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "sillycard"
+      ],
+      "outputFileMapPath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardSampleTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardSampleTests.build/CardSampleVerificationTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardSampleTests.build/CardStyleCaptureReportTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardSampleTests.build/CharacterCardTitlePresentationTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardSampleTests.build/MarkdownInHTMLPreviewTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Modules/SillycardSampleTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/sheldon/sillycard/Tests/SillycardSampleTests/CardSampleVerificationTests.swift",
+        "/Users/sheldon/sillycard/Tests/SillycardSampleTests/CardStyleCaptureReportTests.swift",
+        "/Users/sheldon/sillycard/Tests/SillycardSampleTests/CharacterCardTitlePresentationTests.swift",
+        "/Users/sheldon/sillycard/Tests/SillycardSampleTests/MarkdownInHTMLPreviewTests.swift"
+      ],
+      "tempsPath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardSampleTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "EmbedMeo" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "EmbedMeo",
+      "-package-name",
+      "sillycard",
+      "-c",
+      "/Users/sheldon/sillycard/Tools/EmbedMeo/main.swift",
+      "-I",
+      "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "EmbedMeo_main",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "sillycard",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "Sillycard" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "Sillycard",
+      "-package-name",
+      "sillycard",
+      "-c",
+      "/Users/sheldon/sillycard/Sources/SillycardApp/SillycardApp.swift",
+      "/Users/sheldon/sillycard/Sources/SillycardApp/SillycardAppDelegate.swift",
+      "-I",
+      "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "Sillycard_main",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "sillycard",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SillycardKit" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SillycardKit",
+      "-package-name",
+      "sillycard",
+      "-c",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/ArchiveRestoreMetadata.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/Bundle+Sillycard.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/CharacterCardJSONFlattener.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/CharacterCardJSONPathMutation.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/CharacterCardJSONPretty.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/CharacterCardPreviewFormatting.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/DefaultLibrary.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/PNGDataDocument.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/SidebarMarkerPalette.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/SillycardAgentDebug.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/SillycardDesign.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/SillycardNotifications.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/SillycardSceneIds.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Models/CardItem.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Models/CardLibraryEntry.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Models/InspectorEditMode.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Models/LibraryScope.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Models/MainLibraryLayoutMode.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Models/SillyTavernCardPreview.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/PNG/CharacterCardPNG.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/PNG/PNGChunks.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Services/CardLibraryStore.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Services/CardMetadataCache.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Services/LibraryScanner.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/ViewModels/LibraryViewModel.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Views/AboutSillycardView.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Views/CardGridView.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Views/CharacterCardFieldValuePreview.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Views/ContentView.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Views/InspectorView.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Views/SidebarView.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Views/SingleCardEditorView.swift",
+      "/Users/sheldon/sillycard/Sources/Sillycard/Views/WelcomeView.swift",
+      "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/DerivedSources/resource_bundle_accessor.swift",
+      "-I",
+      "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+      "-module-cache-path",
+      "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/include/SillycardKit-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "sillycard",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SillycardPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SillycardPackageTests",
+      "-package-name",
+      "sillycard",
+      "-c",
+      "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardPackageTests.build/include/SillycardPackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "sillycard",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SillycardSampleTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SillycardSampleTests",
+      "-package-name",
+      "sillycard",
+      "-c",
+      "/Users/sheldon/sillycard/Tests/SillycardSampleTests/CardSampleVerificationTests.swift",
+      "/Users/sheldon/sillycard/Tests/SillycardSampleTests/CardStyleCaptureReportTests.swift",
+      "/Users/sheldon/sillycard/Tests/SillycardSampleTests/CharacterCardTitlePresentationTests.swift",
+      "/Users/sheldon/sillycard/Tests/SillycardSampleTests/MarkdownInHTMLPreviewTests.swift",
+      "-I",
+      "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "sillycard",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "EmbedMeo" : [
+      "SillycardKit"
+    ],
+    "Sillycard" : [
+      "SillycardKit"
+    ],
+    "SillycardKit" : [
+
+    ],
+    "SillycardPackageTests" : [
+      "SillycardSampleTests",
+      "SillycardKit"
+    ],
+    "SillycardSampleTests" : [
+      "SillycardKit"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/EmbedMeo-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/EmbedMeo-entitlement.plist"
+    },
+    "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/EmbedMeo.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Tools/EmbedMeo/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/EmbedMeo.build/sources"
+    },
+    "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/EmbedMeo.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/EmbedMeo.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/AboutSillycardView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/ArchiveRestoreMetadata.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/Bundle+Sillycard.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CardGridView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CardItem.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CardLibraryEntry.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CardLibraryStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CardMetadataCache.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardFieldValuePreview.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardJSONFlattener.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardJSONPathMutation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardJSONPretty.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardPNG.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardPreviewFormatting.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/DefaultLibrary.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/InspectorEditMode.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/InspectorView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/LibraryScanner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/LibraryScope.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/LibraryViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/MainLibraryLayoutMode.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/PNGChunks.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/PNGDataDocument.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SidebarMarkerPalette.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SidebarView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SillyTavernCardPreview.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SillycardAgentDebug.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SillycardDesign.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SillycardNotifications.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SillycardSceneIds.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SingleCardEditorView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/WelcomeView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/resource_bundle_accessor.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/EmbedMeo.product/Objects.LinkFileList"
+    },
+    "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard-entitlement.plist"
+    },
+    "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/SillycardApp/SillycardApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/SillycardApp/SillycardAppDelegate.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard.build/sources"
+    },
+    "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard.build/SillycardApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard.build/SillycardAppDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/AboutSillycardView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/ArchiveRestoreMetadata.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/Bundle+Sillycard.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CardGridView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CardItem.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CardLibraryEntry.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CardLibraryStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CardMetadataCache.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardFieldValuePreview.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardJSONFlattener.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardJSONPathMutation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardJSONPretty.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardPNG.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardPreviewFormatting.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/DefaultLibrary.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/InspectorEditMode.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/InspectorView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/LibraryScanner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/LibraryScope.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/LibraryViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/MainLibraryLayoutMode.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/PNGChunks.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/PNGDataDocument.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SidebarMarkerPalette.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SidebarView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SillyTavernCardPreview.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SillycardAgentDebug.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SillycardDesign.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SillycardNotifications.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SillycardSceneIds.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SingleCardEditorView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/WelcomeView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/resource_bundle_accessor.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard.product/Objects.LinkFileList"
+    },
+    "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/ArchiveRestoreMetadata.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/Bundle+Sillycard.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/CharacterCardJSONFlattener.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/CharacterCardJSONPathMutation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/CharacterCardJSONPretty.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/CharacterCardPreviewFormatting.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/DefaultLibrary.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/PNGDataDocument.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/SidebarMarkerPalette.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/SillycardAgentDebug.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/SillycardDesign.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/SillycardNotifications.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Helpers/SillycardSceneIds.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Models/CardItem.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Models/CardLibraryEntry.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Models/InspectorEditMode.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Models/LibraryScope.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Models/MainLibraryLayoutMode.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Models/SillyTavernCardPreview.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/PNG/CharacterCardPNG.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/PNG/PNGChunks.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Services/CardLibraryStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Services/CardMetadataCache.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Services/LibraryScanner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/ViewModels/LibraryViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Views/AboutSillycardView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Views/CardGridView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Views/CharacterCardFieldValuePreview.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Views/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Views/InspectorView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Views/SidebarView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Views/SingleCardEditorView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Sources/Sillycard/Views/WelcomeView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/DerivedSources/resource_bundle_accessor.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/sources"
+    },
+    "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardPackageTests.build/sources"
+    },
+    "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/AboutSillycardView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/ArchiveRestoreMetadata.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/Bundle+Sillycard.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CardGridView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CardItem.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CardLibraryEntry.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CardLibraryStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CardMetadataCache.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardFieldValuePreview.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardJSONFlattener.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardJSONPathMutation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardJSONPretty.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardPNG.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/CharacterCardPreviewFormatting.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/DefaultLibrary.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/InspectorEditMode.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/InspectorView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/LibraryScanner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/LibraryScope.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/LibraryViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/MainLibraryLayoutMode.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/PNGChunks.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/PNGDataDocument.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SidebarMarkerPalette.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SidebarView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SillyTavernCardPreview.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SillycardAgentDebug.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SillycardDesign.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SillycardNotifications.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SillycardSceneIds.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/SingleCardEditorView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/WelcomeView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardKit.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardSampleTests.build/CardSampleVerificationTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardSampleTests.build/CardStyleCaptureReportTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardSampleTests.build/CharacterCardTitlePresentationTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardSampleTests.build/MarkdownInHTMLPreviewTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardSampleTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Tests/SillycardSampleTests/CardSampleVerificationTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Tests/SillycardSampleTests/CardStyleCaptureReportTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Tests/SillycardSampleTests/CharacterCardTitlePresentationTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/sheldon/sillycard/Tests/SillycardSampleTests/MarkdownInHTMLPreviewTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/SillycardSampleTests.build/sources"
+    },
+    "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

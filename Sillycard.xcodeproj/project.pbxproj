@@ -7,52 +7,115 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00F6B758B5C9A6D885E42A54 /* CharacterCardFieldValuePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB38833C726910F1C283E0A /* CharacterCardFieldValuePreview.swift */; };
+		1C4F353AAE4E78BBA52AFF3D /* cat_banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E15F29E4D0C121EF8B5495C /* cat_banner.png */; };
+		223F533915F276327163A13A /* MainLibraryLayoutMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C7250EE2C29C7156DF3A76 /* MainLibraryLayoutMode.swift */; };
+		26BC2C5C0838C57FD94E5BE8 /* SillycardAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B549FF079F2C8E94F90C6F /* SillycardAppDelegate.swift */; };
 		3427EEBFA7B287C6C431CA2F /* InspectorEditMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171A25115DB687552A16CB11 /* InspectorEditMode.swift */; };
 		3AACE135777E8C5100BA5D60 /* InspectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF59F515E58B67598A3C531 /* InspectorView.swift */; };
+		3D3C7D856E71CEE79D45CA12 /* ArchiveRestoreMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3356668824007CECA763DADE /* ArchiveRestoreMetadata.swift */; };
 		422DE30618E903EDDC5E2E64 /* LibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C09930A1A488D4B89B91D5 /* LibraryViewModel.swift */; };
+		428961C4468A8D52CBD34A38 /* Bundle+Sillycard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AF80BE47B2C0B321D41360 /* Bundle+Sillycard.swift */; };
 		43ED16A551F38419A8C8A0DA /* CardMetadataCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156D492A95CE23E57E05D879 /* CardMetadataCache.swift */; };
 		4B18A5AEFD41FF8BDD863629 /* CharacterCardPNG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F08018B346B5EEECA4790B8 /* CharacterCardPNG.swift */; };
+		55F81B1745413399D7000C5A /* CardLibraryEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF66CE54D94A7AA597770A6F /* CardLibraryEntry.swift */; };
+		5A4766CE08DC5CEB7FD41143 /* SillycardSceneIds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4013F78E2FD50289EDE45308 /* SillycardSceneIds.swift */; };
 		5B6FE617680AA1B8CD537260 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C866DF020AD5D5AD761DE21C /* SidebarView.swift */; };
+		65970C5470CC56ED83C2809A /* SillyTavernCardPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5650D8ECFD1E5FEE6EF58F63 /* SillyTavernCardPreview.swift */; };
+		65A5AFE76B21489350273398 /* SillycardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DB3E1E03AA60DAA3FD1047 /* SillycardApp.swift */; };
+		65C597C8AFABD5F9964AC70C /* SidebarMarkerPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1B71ECC0BD80FC6FBD4DC /* SidebarMarkerPalette.swift */; };
 		6E45E50BD45BE55AD7191D41 /* PNGChunks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B7CA454862EDB48F752630 /* PNGChunks.swift */; };
+		6E8C42131B6EF33C7AD7D27F /* SillycardDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC3F04A15F5D006A9ED0728 /* SillycardDesign.swift */; };
 		775D498130BD6D60EECA4375 /* PNGDataDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C958CC509CE196800345AFB /* PNGDataDocument.swift */; };
+		78AFAA041A79439A63B36032 /* LibraryScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198DE4D27C716E6026B6E2EC /* LibraryScope.swift */; };
 		7E499AE3C5368CB862F79227 /* CardGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1219BC0CA2EBA074AC249466 /* CardGridView.swift */; };
+		833D9545D64650BDBB27A509 /* DefaultLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50869D91029199064558CAEC /* DefaultLibrary.swift */; };
 		8832890C8490F3EC57E8B106 /* SingleCardEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414F3875A4A08EEB4F234BCE /* SingleCardEditorView.swift */; };
-		93E5F3BFDEA5A77EDDAD2C5C /* FolderAccessHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB54372CBF8F620D08E4849 /* FolderAccessHelp.swift */; };
+		8AE442F7323D3FE3013DFF0D /* AboutSillycardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB6036419E80FB858710664 /* AboutSillycardView.swift */; };
+		94476C2BA586FFBFD3888248 /* Meo.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D33A143D8E3742859419AF /* Meo.png */; };
+		98610512E186F5562A803043 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43CB383BD9E169D4CBE7B228 /* Assets.xcassets */; };
+		9D6FE2594C131E0B39326A34 /* CharacterCardJSONPretty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C421454A9EEE6A26276AAE /* CharacterCardJSONPretty.swift */; };
 		A1A3C52A908FB432296CBC21 /* LibraryScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A65965059AB0FB7BC2F58DE /* LibraryScanner.swift */; };
-		C951B6A3149861A7C373FC65 /* SillycardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5D08059A4520E62329C15 /* SillycardApp.swift */; };
+		A3226176CB46D211DECCBE3B /* SillycardAgentDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40C8F9F9BA443FC2FF33690 /* SillycardAgentDebug.swift */; };
+		B62BB27419126FCC572BCA61 /* CharacterCardJSONPathMutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B780B68BBA80B1983945B2BB /* CharacterCardJSONPathMutation.swift */; };
+		C65E814534F4F0F9381C0F67 /* CharacterCardPreviewFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95594CCC21ECA7EB0917C7D /* CharacterCardPreviewFormatting.swift */; };
+		D9C2EBFA332E137283E54989 /* CharacterCardJSONFlattener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C76FDF2E0F030A56B581A0D /* CharacterCardJSONFlattener.swift */; };
+		ECCF47E1169629F07F52C4A1 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CAD7E59195ACA813C1C1A2 /* WelcomeView.swift */; };
+		ECEF522FCE33BB0F10D694CC /* CardLibraryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74C38E88CBE8B6C6D74D078 /* CardLibraryStore.swift */; };
 		EFC76B7FFABCC5D8E457A3A8 /* SillycardNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77966A4A09DF771DEED7C4CE /* SillycardNotifications.swift */; };
 		F796860E18A15E28CA8E9AD7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A084CC0B5405FDDFBFB733 /* ContentView.swift */; };
 		FECE60A861047337BA0EBD8F /* CardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3869AAF7F6A9D36C6D5D85 /* CardItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04F5D08059A4520E62329C15 /* SillycardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SillycardApp.swift; sourceTree = "<group>"; };
+		0E15F29E4D0C121EF8B5495C /* cat_banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat_banner.png; sourceTree = "<group>"; };
+		0FB6036419E80FB858710664 /* AboutSillycardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutSillycardView.swift; sourceTree = "<group>"; };
 		1219BC0CA2EBA074AC249466 /* CardGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGridView.swift; sourceTree = "<group>"; };
 		156D492A95CE23E57E05D879 /* CardMetadataCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMetadataCache.swift; sourceTree = "<group>"; };
 		171A25115DB687552A16CB11 /* InspectorEditMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectorEditMode.swift; sourceTree = "<group>"; };
+		198DE4D27C716E6026B6E2EC /* LibraryScope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryScope.swift; sourceTree = "<group>"; };
 		1C958CC509CE196800345AFB /* PNGDataDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PNGDataDocument.swift; sourceTree = "<group>"; };
+		24B549FF079F2C8E94F90C6F /* SillycardAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SillycardAppDelegate.swift; sourceTree = "<group>"; };
+		3356668824007CECA763DADE /* ArchiveRestoreMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveRestoreMetadata.swift; sourceTree = "<group>"; };
+		4013F78E2FD50289EDE45308 /* SillycardSceneIds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SillycardSceneIds.swift; sourceTree = "<group>"; };
 		414F3875A4A08EEB4F234BCE /* SingleCardEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCardEditorView.swift; sourceTree = "<group>"; };
+		43CB383BD9E169D4CBE7B228 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50869D91029199064558CAEC /* DefaultLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultLibrary.swift; sourceTree = "<group>"; };
 		53A084CC0B5405FDDFBFB733 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		53BEF5737FF3E5C9481BCE3A /* Sillycard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sillycard.entitlements; sourceTree = "<group>"; };
-		5AB54372CBF8F620D08E4849 /* FolderAccessHelp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderAccessHelp.swift; sourceTree = "<group>"; };
+		5650D8ECFD1E5FEE6EF58F63 /* SillyTavernCardPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SillyTavernCardPreview.swift; sourceTree = "<group>"; };
+		64CAD7E59195ACA813C1C1A2 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		65AF80BE47B2C0B321D41360 /* Bundle+Sillycard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Sillycard.swift"; sourceTree = "<group>"; };
 		6A65965059AB0FB7BC2F58DE /* LibraryScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryScanner.swift; sourceTree = "<group>"; };
 		77966A4A09DF771DEED7C4CE /* SillycardNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SillycardNotifications.swift; sourceTree = "<group>"; };
 		7AF59F515E58B67598A3C531 /* InspectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectorView.swift; sourceTree = "<group>"; };
+		7C76FDF2E0F030A56B581A0D /* CharacterCardJSONFlattener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCardJSONFlattener.swift; sourceTree = "<group>"; };
+		8CC1B71ECC0BD80FC6FBD4DC /* SidebarMarkerPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarMarkerPalette.swift; sourceTree = "<group>"; };
 		8F08018B346B5EEECA4790B8 /* CharacterCardPNG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCardPNG.swift; sourceTree = "<group>"; };
+		96C7250EE2C29C7156DF3A76 /* MainLibraryLayoutMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLibraryLayoutMode.swift; sourceTree = "<group>"; };
+		9CB38833C726910F1C283E0A /* CharacterCardFieldValuePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCardFieldValuePreview.swift; sourceTree = "<group>"; };
+		A40C8F9F9BA443FC2FF33690 /* SillycardAgentDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SillycardAgentDebug.swift; sourceTree = "<group>"; };
 		A801EC94A9587E2947E9A769 /* Sillycard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sillycard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C09930A1A488D4B89B91D5 /* LibraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewModel.swift; sourceTree = "<group>"; };
+		B4D33A143D8E3742859419AF /* Meo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Meo.png; sourceTree = "<group>"; };
+		B780B68BBA80B1983945B2BB /* CharacterCardJSONPathMutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCardJSONPathMutation.swift; sourceTree = "<group>"; };
+		BF66CE54D94A7AA597770A6F /* CardLibraryEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLibraryEntry.swift; sourceTree = "<group>"; };
 		C866DF020AD5D5AD761DE21C /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 		C9B7CA454862EDB48F752630 /* PNGChunks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PNGChunks.swift; sourceTree = "<group>"; };
+		D95594CCC21ECA7EB0917C7D /* CharacterCardPreviewFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCardPreviewFormatting.swift; sourceTree = "<group>"; };
+		E1DB3E1E03AA60DAA3FD1047 /* SillycardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SillycardApp.swift; sourceTree = "<group>"; };
+		E3C421454A9EEE6A26276AAE /* CharacterCardJSONPretty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCardJSONPretty.swift; sourceTree = "<group>"; };
+		F74C38E88CBE8B6C6D74D078 /* CardLibraryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLibraryStore.swift; sourceTree = "<group>"; };
 		FB3869AAF7F6A9D36C6D5D85 /* CardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardItem.swift; sourceTree = "<group>"; };
+		FFC3F04A15F5D006A9ED0728 /* SillycardDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SillycardDesign.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		0D1FB630912E8324F7C68602 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0E15F29E4D0C121EF8B5495C /* cat_banner.png */,
+				B4D33A143D8E3742859419AF /* Meo.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		12BB33730AB2439FA7982ACD /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				5AB54372CBF8F620D08E4849 /* FolderAccessHelp.swift */,
+				3356668824007CECA763DADE /* ArchiveRestoreMetadata.swift */,
+				65AF80BE47B2C0B321D41360 /* Bundle+Sillycard.swift */,
+				7C76FDF2E0F030A56B581A0D /* CharacterCardJSONFlattener.swift */,
+				B780B68BBA80B1983945B2BB /* CharacterCardJSONPathMutation.swift */,
+				E3C421454A9EEE6A26276AAE /* CharacterCardJSONPretty.swift */,
+				D95594CCC21ECA7EB0917C7D /* CharacterCardPreviewFormatting.swift */,
+				50869D91029199064558CAEC /* DefaultLibrary.swift */,
 				1C958CC509CE196800345AFB /* PNGDataDocument.swift */,
+				8CC1B71ECC0BD80FC6FBD4DC /* SidebarMarkerPalette.swift */,
+				A40C8F9F9BA443FC2FF33690 /* SillycardAgentDebug.swift */,
+				FFC3F04A15F5D006A9ED0728 /* SillycardDesign.swift */,
 				77966A4A09DF771DEED7C4CE /* SillycardNotifications.swift */,
+				4013F78E2FD50289EDE45308 /* SillycardSceneIds.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -61,7 +124,11 @@
 			isa = PBXGroup;
 			children = (
 				FB3869AAF7F6A9D36C6D5D85 /* CardItem.swift */,
+				BF66CE54D94A7AA597770A6F /* CardLibraryEntry.swift */,
 				171A25115DB687552A16CB11 /* InspectorEditMode.swift */,
+				198DE4D27C716E6026B6E2EC /* LibraryScope.swift */,
+				96C7250EE2C29C7156DF3A76 /* MainLibraryLayoutMode.swift */,
+				5650D8ECFD1E5FEE6EF58F63 /* SillyTavernCardPreview.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -78,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				4BD548554C91F361E44B81E6 /* Sillycard */,
+				FDAB2CAB7116A5146D1FC5AE /* SillycardApp */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -85,11 +153,12 @@
 		4BD548554C91F361E44B81E6 /* Sillycard */ = {
 			isa = PBXGroup;
 			children = (
+				43CB383BD9E169D4CBE7B228 /* Assets.xcassets */,
 				53BEF5737FF3E5C9481BCE3A /* Sillycard.entitlements */,
-				04F5D08059A4520E62329C15 /* SillycardApp.swift */,
 				12BB33730AB2439FA7982ACD /* Helpers */,
 				1AA0AE84BE37D59F6904E6CA /* Models */,
 				8C5DFBD32A6427C5360A152D /* PNG */,
+				0D1FB630912E8324F7C68602 /* Resources */,
 				AF150E68A748C72A9A0A3B0C /* Services */,
 				944EDD908701D43D7A79BCBF /* ViewModels */,
 				FA4039F3168C62A1DC333B61 /* Views */,
@@ -125,6 +194,7 @@
 		AF150E68A748C72A9A0A3B0C /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				F74C38E88CBE8B6C6D74D078 /* CardLibraryStore.swift */,
 				156D492A95CE23E57E05D879 /* CardMetadataCache.swift */,
 				6A65965059AB0FB7BC2F58DE /* LibraryScanner.swift */,
 			);
@@ -134,13 +204,25 @@
 		FA4039F3168C62A1DC333B61 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0FB6036419E80FB858710664 /* AboutSillycardView.swift */,
 				1219BC0CA2EBA074AC249466 /* CardGridView.swift */,
+				9CB38833C726910F1C283E0A /* CharacterCardFieldValuePreview.swift */,
 				53A084CC0B5405FDDFBFB733 /* ContentView.swift */,
 				7AF59F515E58B67598A3C531 /* InspectorView.swift */,
 				C866DF020AD5D5AD761DE21C /* SidebarView.swift */,
 				414F3875A4A08EEB4F234BCE /* SingleCardEditorView.swift */,
+				64CAD7E59195ACA813C1C1A2 /* WelcomeView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		FDAB2CAB7116A5146D1FC5AE /* SillycardApp */ = {
+			isa = PBXGroup;
+			children = (
+				E1DB3E1E03AA60DAA3FD1047 /* SillycardApp.swift */,
+				24B549FF079F2C8E94F90C6F /* SillycardAppDelegate.swift */,
+			);
+			path = SillycardApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +233,7 @@
 			buildConfigurationList = 03DD56AB349C30DC8F1D5BEA /* Build configuration list for PBXNativeTarget "Sillycard" */;
 			buildPhases = (
 				55532E101ED321F70A821D2D /* Sources */,
+				C8E998DD75327C6F5F6949A6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -196,27 +279,59 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		C8E998DD75327C6F5F6949A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98610512E186F5562A803043 /* Assets.xcassets in Resources */,
+				94476C2BA586FFBFD3888248 /* Meo.png in Resources */,
+				1C4F353AAE4E78BBA52AFF3D /* cat_banner.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		55532E101ED321F70A821D2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AE442F7323D3FE3013DFF0D /* AboutSillycardView.swift in Sources */,
+				3D3C7D856E71CEE79D45CA12 /* ArchiveRestoreMetadata.swift in Sources */,
+				428961C4468A8D52CBD34A38 /* Bundle+Sillycard.swift in Sources */,
 				7E499AE3C5368CB862F79227 /* CardGridView.swift in Sources */,
 				FECE60A861047337BA0EBD8F /* CardItem.swift in Sources */,
+				55F81B1745413399D7000C5A /* CardLibraryEntry.swift in Sources */,
+				ECEF522FCE33BB0F10D694CC /* CardLibraryStore.swift in Sources */,
 				43ED16A551F38419A8C8A0DA /* CardMetadataCache.swift in Sources */,
+				00F6B758B5C9A6D885E42A54 /* CharacterCardFieldValuePreview.swift in Sources */,
+				D9C2EBFA332E137283E54989 /* CharacterCardJSONFlattener.swift in Sources */,
+				B62BB27419126FCC572BCA61 /* CharacterCardJSONPathMutation.swift in Sources */,
+				9D6FE2594C131E0B39326A34 /* CharacterCardJSONPretty.swift in Sources */,
 				4B18A5AEFD41FF8BDD863629 /* CharacterCardPNG.swift in Sources */,
+				C65E814534F4F0F9381C0F67 /* CharacterCardPreviewFormatting.swift in Sources */,
 				F796860E18A15E28CA8E9AD7 /* ContentView.swift in Sources */,
-				93E5F3BFDEA5A77EDDAD2C5C /* FolderAccessHelp.swift in Sources */,
+				833D9545D64650BDBB27A509 /* DefaultLibrary.swift in Sources */,
 				3427EEBFA7B287C6C431CA2F /* InspectorEditMode.swift in Sources */,
 				3AACE135777E8C5100BA5D60 /* InspectorView.swift in Sources */,
 				A1A3C52A908FB432296CBC21 /* LibraryScanner.swift in Sources */,
+				78AFAA041A79439A63B36032 /* LibraryScope.swift in Sources */,
 				422DE30618E903EDDC5E2E64 /* LibraryViewModel.swift in Sources */,
+				223F533915F276327163A13A /* MainLibraryLayoutMode.swift in Sources */,
 				6E45E50BD45BE55AD7191D41 /* PNGChunks.swift in Sources */,
 				775D498130BD6D60EECA4375 /* PNGDataDocument.swift in Sources */,
+				65C597C8AFABD5F9964AC70C /* SidebarMarkerPalette.swift in Sources */,
 				5B6FE617680AA1B8CD537260 /* SidebarView.swift in Sources */,
-				C951B6A3149861A7C373FC65 /* SillycardApp.swift in Sources */,
+				65970C5470CC56ED83C2809A /* SillyTavernCardPreview.swift in Sources */,
+				A3226176CB46D211DECCBE3B /* SillycardAgentDebug.swift in Sources */,
+				65A5AFE76B21489350273398 /* SillycardApp.swift in Sources */,
+				26BC2C5C0838C57FD94E5BE8 /* SillycardAppDelegate.swift in Sources */,
+				6E8C42131B6EF33C7AD7D27F /* SillycardDesign.swift in Sources */,
 				EFC76B7FFABCC5D8E457A3A8 /* SillycardNotifications.swift in Sources */,
+				5A4766CE08DC5CEB7FD41143 /* SillycardSceneIds.swift in Sources */,
 				8832890C8490F3EC57E8B106 /* SingleCardEditorView.swift in Sources */,
+				ECCF47E1169629F07F52C4A1 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +345,7 @@
 				CODE_SIGN_ENTITLEMENTS = Sources/Sillycard/Sillycard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Sillycard;
@@ -237,9 +353,10 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.nowtiny.sillycard;
 				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5.9;
 			};
 			name = Debug;
 		};
@@ -250,6 +367,7 @@
 				CODE_SIGN_ENTITLEMENTS = Sources/Sillycard/Sillycard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Sillycard;
@@ -257,9 +375,10 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.nowtiny.sillycard;
 				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5.9;
 			};
 			name = Release;
 		};

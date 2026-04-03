@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/EmbedMeo.build/primary.swiftdeps"
+  },
+  "/Users/sheldon/sillycard/Tools/EmbedMeo/main.swift": {
+    "dependencies": "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/EmbedMeo.build/main.d",
+    "object": "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/EmbedMeo.build/main.swift.o",
+    "swiftmodule": "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/EmbedMeo.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/EmbedMeo.build/main.swiftdeps",
+    "diagnostics": "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/EmbedMeo.build/main.dia"
+  }
+}

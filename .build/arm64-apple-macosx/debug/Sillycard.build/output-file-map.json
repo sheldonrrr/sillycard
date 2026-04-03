@@ -1,0 +1,19 @@
+{
+  "": {
+    "swift-dependencies": "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard.build/primary.swiftdeps"
+  },
+  "/Users/sheldon/sillycard/Sources/SillycardApp/SillycardApp.swift": {
+    "dependencies": "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard.build/SillycardApp.d",
+    "object": "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard.build/SillycardApp.swift.o",
+    "swiftmodule": "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard.build/SillycardApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard.build/SillycardApp.swiftdeps",
+    "diagnostics": "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard.build/SillycardApp.dia"
+  },
+  "/Users/sheldon/sillycard/Sources/SillycardApp/SillycardAppDelegate.swift": {
+    "dependencies": "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard.build/SillycardAppDelegate.d",
+    "object": "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard.build/SillycardAppDelegate.swift.o",
+    "swiftmodule": "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard.build/SillycardAppDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard.build/SillycardAppDelegate.swiftdeps",
+    "diagnostics": "/Users/sheldon/sillycard/.build/arm64-apple-macosx/debug/Sillycard.build/SillycardAppDelegate.dia"
+  }
+}

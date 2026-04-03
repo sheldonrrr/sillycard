@@ -1,5 +1,6 @@
 # Generate / refresh Xcode 工程：在仓库根目录执行 `xcodegen generate`
 # Requires: brew install xcodegen
+# 说明：与 SwiftPM 不同，Xcode 使用单应用目标编译 Sillycard + SillycardApp（同模块，无需 SillycardKit.framework）。
 name: Sillycard
 options:
   deploymentTarget:
@@ -21,12 +22,22 @@ targets:
         shared: true
     sources:
       - path: Sources/Sillycard
+      - path: Sources/SillycardApp
+    resources:
+      - path: Sources/Sillycard/Assets.xcassets
+        type: folder
+      # 与 SwiftPM 一致：PNG 资源（Meo 示例卡、欢迎/关于 banner）需进入 App 包，否则 Bundle.main 加载失败。
+      - path: Sources/Sillycard/Resources
+        type: folder
     entitlements:
       path: Sources/Sillycard/Sillycard.entitlements
     settings:
       PRODUCT_BUNDLE_IDENTIFIER: xyz.nowtiny.sillycard
+      MARKETING_VERSION: "1.2"
+      CURRENT_PROJECT_VERSION: "1"
       GENERATE_INFOPLIST_FILE: YES
       INFOPLIST_KEY_CFBundleDisplayName: Sillycard
-      SWIFT_VERSION: "5.0"
+      ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+      SWIFT_VERSION: "5.9"
       CODE_SIGN_STYLE: Automatic
       ENABLE_HARDENED_RUNTIME: YES

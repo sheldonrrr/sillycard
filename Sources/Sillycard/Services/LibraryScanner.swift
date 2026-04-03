@@ -31,4 +31,9 @@ enum LibraryScanner {
         }
         return items.sorted { $0.fileURL.path < $1.fileURL.path }
     }
+
+    /// 递归统计资料库内 PNG 数量（含归档子文件夹）。
+    static func countAllPNG(root: URL) throws -> Int {
+        try scan(root: root).count
+    }
 }
