@@ -1,0 +1,25 @@
+# SwiftPM / 命令行构建
+.build/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+
+# Xcode — 个人/机器相关（工程本身若由 xcodegen 生成可继续纳入版本控制）
+**/xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+*.hmap
+DerivedData/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# 备份与临时
+*.swp
+*~
+*.orig
+
+# 保留：.cursor/ 配置在多设备间同步，请勿加入本文件。
